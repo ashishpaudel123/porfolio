@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    margin-bottom: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa ;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link{
+    padding-left: 40px !important;
+    color: black !important;
+}
+.nav-link:hover{
+    
+}
+
+.intro{
+    padding-top: 170px;
+    background-image: url('./image/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+.intro a{
+    font-size: 30px;
+    padding: 0 8px;
+}
+.intro a:hover{
+    font-size: 40px;
+}
+.intro h2{
+    color:#f75123;
+}
+#profession{
+    font-size: 22px;
+    color: #1dbf5b;
+    font-weight: bold;
+}
+#myname{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.social-links{
+    padding: 10px;
+}
+#fb{
+    color: #1877F2;
+}
+#insta{
+    color: #DD2A7B;
+}
+#twit{
+    color: #1DA1F2;
+}
+#tik{
+    color: #000000;
+}
+.about-photo img{
+    padding-left: 50px;
+}
+
+.about-me{
+    background-image: url('./image/Untitled\ design.svg');
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-me p{
+    text-align: justify;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.my-skills{
+    background-repeat: no-repeat;
+    background-position: ;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: url('./image/skillsbg.mp4');
+}
+
+.my-skills h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.my-skills i{
+    font-size: 80px;
+}
+.skills-box{
+  /* background-color: #fafafa; */
+
+}
+
+.skills{
+    color: orangered;
+}
+
+.portfolio{
+    background-image: url('./image/bg3.png');
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.portfolio p{
+    font-size: 23px;
+    color: orangered;
+}
+
+.portfolio button{
+    margin: 20px;
+}
+
+.projects{
+    padding-top: 30px;
+}
+.projects .col-4{
+    width: 30%;
+    margin: 10px;
+}
+.projects .col-4 img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 13px;
+}
+.footer{
+    background-color: #a19c9cb9;
+    padding: 20px;
+    font-size: 14px;
+}
+.about-photo img{
+    border-radius: 20%;
+}
+.form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: inherit;
+    gap: 10px;
+    padding-inline: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 20px;
+}
+  
+.form-heading {
+    text-align: center;
+    margin: 2em;
+    color: #64ffda;
+    font-size: 1.2em;
+    background-color: transparent;
+    align-self: center;
+}
+  
+.form-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 10px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+  
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #ccd6f6;
+    padding-inline: 1em;
+  }
+  
+.sendMessage-btn {
+    cursor: pointer;
+    margin-bottom: 3em;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #64ffda;
+    font-weight: bold;
+    outline: 1px solid #64ffda;
+    transition: all ease-in-out 0.3s;
+}
+  
+.sendMessage-btn:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: #64ffda;
+    color: #000;
+    cursor: pointer;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+  
+.form-card1 {
+    background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
+    border-radius: 22px;
+    transition: all 0.3s;
+}
+  
+.form-card1:hover {
+    box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);
+}
+  
+.form-card2 {
+    border-radius: 0;
+    transition: all 0.2s;
+}
+  
+.form-card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+
+
